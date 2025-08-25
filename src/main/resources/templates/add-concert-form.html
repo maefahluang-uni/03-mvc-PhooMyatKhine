@@ -8,6 +8,14 @@
 <body>
     <h1>Add Concert</h1>
     <!-- add form for adding concert-->
-
+    <form action="/concerts" method="post">
+        Title: <input type="text" name="title"><br>
+        Performer: <input type="text" name="performer"><br>
+        Date: <input type="date" name="date"><br>
+        Description: <input type="text" name="description"><br>
+        <button type="submit">Save</button>
+    </form>
+    <br>
+    <a href="/concerts">Back to list</a>
 </body>
 </html>
